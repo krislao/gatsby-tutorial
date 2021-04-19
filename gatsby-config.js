@@ -8,8 +8,11 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Pandas Eating Lots",
+    description: `A simple description about pandas eating lots...`,
+    author: `Kristoffer Lao`,
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
